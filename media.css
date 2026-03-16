@@ -1,4 +1,5 @@
-@font-face {
+@media screen and (max-width: 480px){
+    @font-face {
 font-family: "Geo"; 
   src: url("fonts/TT0524M_.TTF") format("truetype");
 }
@@ -21,29 +22,31 @@ font-family: "Geo";
 }
 
 body {
-  margin: 0px;
+   margin: 0px;
   overflow-x: hidden;
   background-color: white;
   font-family: Arial;
 color:white;
 }
-
 a {
   text-decoration: none;
 }
 
 
 #headerTop {
-  height: 115px;
+  height: 300px;
   background-color: rgb(231, 243, 254);
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
 }
 
 #mainLogo {
-  float: left;
+  padding-top: 15px;
   width: 300px;
 }
 #mainInfo{
@@ -53,6 +56,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: url(imajes/minimalist-home-gym-with-black-walls-and-black-equipment-1024x574.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -62,6 +66,7 @@ a {
 
 
 #mainInfoFirstText {
+    text-align: center;
   font-size: 80px;
   font-family: Neo_Bold;
   color: white;
@@ -73,6 +78,7 @@ a {
   font-family: Med;
   color: white;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 #mainInfoTherdText {
@@ -81,7 +87,7 @@ a {
   font-family: Med;
   color: white;
   padding-bottom: 40px;
-
+text-align: center;
 }
 
 #mainInfoButton {
@@ -98,7 +104,6 @@ a {
   background-color:#1d4ed8;
 }
 #headerButton {
-  margin-right: 50px;
   width: 250px;
   height: 40px;
   background-color: #2563eb;
@@ -107,22 +112,26 @@ a {
   font-size: 25px;
   border: none;
   border-radius: 5px;
-  margin-left: auto;
 }
-
+#saveMenue{
+    width: 325px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #headerButton:hover{
   background-color:#1d4ed8;
 }
 svg{
-  fill: white;
-  width: 22px;
+  display: none;
 }
 #ProdMain{
     background-color: rgb(231, 243, 254);
   height: 100%;
   padding: 50px 125px 125px 125px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -132,25 +141,28 @@ color: black;
 font-family: Neo_Bold;
 font-size: 40px;
 padding-bottom: 20px;
+text-align: center;
 }
 #ProdMainTextBlue{
 color: #1d4ed8;
 font-family: Neo_Bold;
 font-size: 40px;
 padding-bottom: 20px;
+text-align: center;
 }
 .ProdMainLowText{
   color: black;
   font-family: Med;
   font-size: 15;
   padding-bottom: 30px;
+  text-align: center;
 }
 #WWW{
   width: 175px;
 }
 
 #iMac{
-  width: 550px;
+ display: none;
 }
 
 #alarm{
@@ -169,7 +181,7 @@ padding-bottom: 20px;
 }
 #AlarmPhotos{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 50px;
   padding: 25px 0px 50px 0px;
 }
@@ -182,14 +194,9 @@ padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
-  padding-left: 50px;
-  padding-right: 125px;
-  padding-top: 25px;
-}
-#highthfooter {
-  display: flex;
-  align-items: right;
+  padding: 0px;
 }
 
 #GYM2 {
@@ -199,6 +206,8 @@ padding-bottom: 20px;
 #licenze_footer{
   color: white;
   font-family: Med;
+text-align: center;
+font-size: 15px;
 }
 #headerInfoButton{
   width: 350px;
@@ -216,11 +225,10 @@ padding-bottom: 20px;
 }
 
 #mainPageAbout{
-  padding-left: 50px;
   height: 100%;
-  padding: 0px 50px 75px 50px;
   background-image: url();
   background-color: white;
+  padding: 10px;
 }
 #topmainPageAbout{
   display: flex;
@@ -248,6 +256,7 @@ aboutProject {
     margin-bottom: 30px;
     font-family: Benzin-bold;
     color: #2563eb;
+    text-align: center;
 }
 
 .projectInfo,
@@ -261,6 +270,7 @@ aboutProject {
     margin-top: 40px;
     font-family: Benzin-bold;
     color: #2563eb;
+    text-align: center;
 }
 
 .authorInfo ul {
@@ -271,16 +281,27 @@ aboutProject {
   font-family: Med;
     color: black;
     font-size: 20px;
+    text-align: center;
 }
 .authorInfo li {
     margin-bottom: 10px;
 }
 
+.authorInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}
 .authorInfo a {
     text-decoration: none;
     transition: 0.3s;
     font-family: Benzin-bold;
     color: #2563eb;
+    text-align: center;
+    font-size: 15px;
 }
 
 .authorInfo a:hover {
@@ -291,12 +312,14 @@ Strong{
     color: black;
     font-size: 20px;
     text-align: center;
+    text-align: center;
 }
 
 li{
   font-family: Med;
     color: black;
     font-size: 20px;
+    text-align: center;
 }
 
 #gitLogo{
@@ -305,7 +328,7 @@ li{
 }
 
 #AboutLogo{
-  width: 500px;
+  width: 225px;
   margin: 0 auto;
 }
 #authorPhoto{
@@ -315,9 +338,9 @@ li{
 }
 #AboutLogos{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  gap: 125px;
+  gap: 50px;
 }
 .MainAboutLogos{
   display: flex;
@@ -352,18 +375,21 @@ li{
 }
 
 .categories {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 50px;
+  grid-auto-flow: row;
   gap: 10px;
   margin-bottom: 20px;
 }
 
 .category-btn {
-  width: 200px;
+  width: 100px;
   height: 50px;
   background-color: #2563eb;
   color: white;
   font-family: Benzin-bold;
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 8px;
 }
 
@@ -373,12 +399,15 @@ li{
 
 .content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   align-items: start; 
    justify-content: start;
@@ -426,7 +455,7 @@ li{
 }
 
 .sidebar {
-  width: 375px;
+  width: 300px;
   height: 100%;
   background: #374151;
   padding: 20px 20px 20px 20px;
@@ -474,7 +503,7 @@ li{
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 10px;
-  width: 350px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -577,7 +606,7 @@ h3{
   visibility: hidden;
 }
 #saveMenue{
-  margin-left: auto
+ 
 }
 
 /* сохранение */
@@ -668,20 +697,26 @@ cursor:pointer;
 #savePage{
   height: 100%;
   min-height: 500px;
-  width: 100%;
-  padding: 50px 50px 50px 50px;
-  background-color: rgba(77, 91, 108);;
+  padding: 0px;
+  background-color: rgba(77, 91, 108);
 }
 .saveHere {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 #saveinfo{
   font-family: Med;
   font-size: 20px;
+  text-align: center;
+}
+#Mytren{
+    color: white;
+  font-family: Benzin-bold;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25px;
 }
 .saved-workout{
   height: 220;
@@ -737,10 +772,10 @@ cursor:pointer;
   flex-direction: row; */
   width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 50px;
-  grid-auto-flow: row;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
 
 
@@ -754,10 +789,10 @@ cursor:pointer;
   padding: 5px;
   font-size: 14px;
   cursor: pointer;
-  margin-left: 50px;
   font-family: Med;
   font-size: 20px;
 }
+
 
 .language-select select:focus {
   outline: none;
@@ -769,3 +804,5 @@ cursor:pointer;
   width: 100px;
 }
 
+
+}
