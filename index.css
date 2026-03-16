@@ -1,0 +1,775 @@
+@font-face {
+font-family: "Geo"; 
+  src: url("fonts/TT0524M_.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Med";
+  src: url("fonts/3205-font.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neo_Bold";
+  src: url("fonts/neosanspro_bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Sans";
+  src: url("fonts/NotoSans_Condensed-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Benzin-bold";
+  src: url("fonts/benzin-bold.ttf") format("truetype");
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#headerTop {
+  height: 115px;
+  background-color: rgb(231, 243, 254);
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#mainLogo {
+  float: left;
+  width: 300px;
+}
+#mainInfo{
+  width: 100%;
+  height: 800px;
+  /* padding-top: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imajes/minimalist-home-gym-with-black-walls-and-black-equipment-1024x574.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column
+}
+
+
+#mainInfoFirstText {
+  font-size: 80px;
+  font-family: Neo_Bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#mainInfoSecountText {
+  font-size: 45px;
+  font-family: Med;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#mainInfoTherdText {
+  font-size: 40px;
+  text-align: center;
+  font-family: Med;
+  color: white;
+  padding-bottom: 40px;
+
+}
+
+#mainInfoButton {
+  width: 250px;
+  height: 65px;
+  color: white;
+  font-family: Med;
+  font-size: 35px;
+  background-color: #2563eb;
+  border-radius: 10px;
+  border: none;
+}
+#mainInfoButton:hover {
+  background-color:#1d4ed8;
+}
+#headerButton {
+  margin-right: 50px;
+  width: 250px;
+  height: 40px;
+  background-color: #2563eb;
+  color: white;
+  font-family: Med;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+#headerButton:hover{
+  background-color:#1d4ed8;
+}
+svg{
+  fill: white;
+  width: 22px;
+}
+#ProdMain{
+    background-color: rgb(231, 243, 254);
+  height: 100%;
+  padding: 50px 125px 125px 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProdMainText{
+color: black;
+font-family: Neo_Bold;
+font-size: 40px;
+padding-bottom: 20px;
+}
+#ProdMainTextBlue{
+color: #1d4ed8;
+font-family: Neo_Bold;
+font-size: 40px;
+padding-bottom: 20px;
+}
+.ProdMainLowText{
+  color: black;
+  font-family: Med;
+  font-size: 15;
+  padding-bottom: 30px;
+}
+#WWW{
+  width: 175px;
+}
+
+#iMac{
+  width: 550px;
+}
+
+#alarm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 50px 0px 50px;
+  background-color: rgb(231, 243, 254); 
+}
+#textAlarm{
+  text-align: center;
+  color: #1c2430;
+  font-family: Med;
+  font-size: 25px;
+}
+#AlarmPhotos{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 25px 0px 50px 0px;
+}
+.alarmLogos{
+  width: 200px;
+}
+#footer {
+  height: 150px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 125px;
+  padding-top: 25px;
+}
+#highthfooter {
+  display: flex;
+  align-items: right;
+}
+
+#GYM2 {
+  width: 200px;
+}
+
+#licenze_footer{
+  color: white;
+  font-family: Med;
+}
+#headerInfoButton{
+  width: 350px;
+  height: 40px;
+  background-color: #2563eb;
+  color: white;
+  font-family: Med;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+}
+#headerInfoButton:hover {
+  background-color:#1d4ed8;
+}
+
+#mainPageAbout{
+  padding-left: 50px;
+  height: 100%;
+  padding: 0px 50px 75px 50px;
+  background-image: url();
+  background-color: white;
+}
+#topmainPageAbout{
+  display: flex;
+ width: 100%;
+    padding-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+aboutProject {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #1e1e1e;
+    border-radius: 12px;
+    color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.projectTitle {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: Benzin-bold;
+    color: #2563eb;
+}
+
+.projectInfo,
+.authorInfo {
+    margin-bottom: 30px;
+}
+
+.projectInfo h2,
+.authorInfo h2 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    font-family: Benzin-bold;
+    color: #2563eb;
+}
+
+.authorInfo ul {
+    list-style: none;
+    padding: 0;
+}
+#AboutInfo{
+  font-family: Med;
+    color: black;
+    font-size: 20px;
+}
+.authorInfo li {
+    margin-bottom: 10px;
+}
+
+.authorInfo a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Benzin-bold;
+    color: #2563eb;
+}
+
+.authorInfo a:hover {
+    text-decoration: underline;
+}
+Strong{
+  font-family: Med;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+li{
+  font-family: Med;
+    color: black;
+    font-size: 20px;
+}
+
+#gitLogo{
+  width: 35px;
+  fill: #2563eb;
+}
+
+#AboutLogo{
+  width: 500px;
+  margin: 0 auto;
+}
+#authorPhoto{
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #2563eb;
+}
+#AboutLogos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 125px;
+}
+.MainAboutLogos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutLogos{
+  height: 200px;
+  padding-bottom: 25px;
+}
+#mainPage{
+  height: 100%;
+  background-color: rgba(77, 91, 108);
+  padding: 40px 50px 75px 50px;
+}
+#topmainPage{
+  display: flex;
+
+}
+#texttopmainPage{
+  font-family: Med;
+  font-size: 22px;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.workout-section {
+  padding: 40px;
+  background: #1f2937;
+  color: white;
+}
+
+.categories {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #2563eb;
+  color: white;
+  font-family: Benzin-bold;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.category-btn.active {
+  background: #1d4ed8;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: start; 
+   justify-content: start;
+  align-content: start;
+}
+
+.card {
+  height: 250px;
+  width: 250px;   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  background: #2d3748;
+  border-radius: 10px;
+}
+.exercise-img{
+  width:100%;
+  height:140px;
+  object-fit:cover;
+  border-radius:8px;
+  margin-bottom:10px;
+}
+
+.card h4 {
+  margin: 10px 0;
+  color: white;
+  font-family: Benzin-bold;
+  font-size: 15px;
+}
+
+.add-btn {
+  background: #2563eb;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-family: Med;
+  font-size: 15px;
+}
+.add-btn:hover{
+  background-color: #1d4ed8;
+}
+
+.sidebar {
+  width: 375px;
+  height: 100%;
+  background: #374151;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.remove-btn {
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.download-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  font-family: Med;
+  font-size: 15px;;
+  color: white;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background: #1d4ed8;
+}
+.workout-item {
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.workout-item-title {
+  color: white;
+  font-family: Med;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.workout-item-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-input {
+  width: 75px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.control-label {
+  color: rgb(167, 167, 167);
+  font-family: Med;
+  font-size: 20px;
+
+}
+
+.remove-btn {
+  background-color: #b91c1c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  height: 34px;
+}
+
+.remove-btn:hover {
+  background: #991b1b;
+}
+
+h3{
+  color: white;
+  font-family: Benzin-bold;
+  font-size: 35px;
+}
+.summary{
+  color: white;
+  font-family: Med;
+  font-size: 20px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.value-set{
+  color: white;
+  font-family: Med;
+  font-size: 10;
+}
+.value-rep{
+  color: white;
+  font-family: Med;
+  font-size: 10;
+}
+.counter button {
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 6px;
+  background: #1d4ed8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter button:hover {
+  background: #1e40af;
+}
+
+.counter span {
+  width: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+.hidden-keep-space {
+  visibility: hidden;
+}
+#saveMenue{
+  margin-left: auto
+}
+
+/* сохранение */
+body{
+font-family: Arial;
+background:#1c2430;
+color:white;
+margin:0;
+padding:0;
+}
+
+header{
+padding:20px;
+font-size:24px;
+text-align:center;
+background:#111827;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.create-workout{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+#createWorkoutBtn{
+padding:10px 16px;
+}
+
+#workoutNameInput{
+flex:1;
+padding:10px;
+border-radius:6px;
+border:none;
+}
+
+#saveWorkoutBtn{
+background:#2563eb;
+border:none;
+padding:10px 16px;
+border-radius:6px;
+color:white;
+cursor:pointer;
+}
+
+#workoutsContainer{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+gap:20px;
+}
+
+.workout-card{
+background:#2b3547;
+border-radius:10px;
+padding:20px;
+position:relative;
+}
+
+.workout-title{
+font-size:20px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.workout-date{
+opacity:0.7;
+margin-bottom:15px;
+}
+
+.delete-btn{
+position:absolute;
+top:10px;
+right:10px;
+background:#dc2626;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+padding:5px 8px;
+}
+
+.download-link{
+display:inline-block;
+margin-top:10px;
+color:#3b82f6;
+cursor:pointer;
+}
+
+#savePage{
+  height: 100%;
+  min-height: 500px;
+  width: 100%;
+  padding: 50px 50px 50px 50px;
+  background-color: rgba(77, 91, 108);;
+}
+.saveHere {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#saveinfo{
+  font-family: Med;
+  font-size: 20px;
+}
+.saved-workout{
+  height: 220;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  background-color:#2d3748;
+  border-radius: 10px;
+}
+.deleteWorkout {
+  background-color: #b91c1c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  height: 34px;
+  margin-right: 15px;
+}
+
+.deleteWorkout:hover {
+  background: #991b1b;
+}
+.workoutNameInput{
+  background-color: #2d3748;
+
+  color: rgb(255, 255, 255);
+  font-family: Med;
+  font-size: 20px;
+  border: none;
+
+}
+.p{
+  font-size: 15;
+  font-family: Med;
+}
+.downloadWorkout{
+  width: 100%;
+  height: 50px;
+  background: #2563eb;
+  font-family: Med;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.downloadWorkout:hover{
+  background-color: #1e40af;
+}
+#savedWorkoutsContainer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* display: flex;
+  flex-direction: row; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 50px;
+  grid-auto-flow: row;
+}
+
+
+.language-select select {
+  width: 135px;
+  height: 40px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 50px;
+  font-family: Med;
+  font-size: 20px;
+}
+
+.language-select select:focus {
+  outline: none;
+}
+
+.language-select option {
+  background-color:#2563eb;
+  color: white;
+  width: 100px;
+}
+
