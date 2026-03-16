@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     @font-face {
 font-family: "Geo"; 
   src: url("fonts/TT0524M_.TTF") format("truetype");
@@ -803,6 +803,4 @@ cursor:pointer;
   color: white;
   width: 100px;
 }
-
-
 }

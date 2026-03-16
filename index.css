@@ -672,6 +672,10 @@ cursor:pointer;
   padding: 50px 50px 50px 50px;
   background-color: rgba(77, 91, 108);;
 }
+#Mytren{
+  font-family: Benzin-bold;
+  font-size: 35px;
+}
 .saveHere {
   width: 100%;
   display: flex;
