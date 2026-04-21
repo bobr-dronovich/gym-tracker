@@ -673,6 +673,8 @@ cursor:pointer;
   background-color: rgba(77, 91, 108);
 }
 #Mytren{
+  display: flex;
+  align-items: center;
   font-family: Benzin-bold;
   font-size: 35px;
 }
@@ -771,5 +773,72 @@ cursor:pointer;
   background-color:#2563eb;
   color: white;
   width: 100px;
+}
+
+.saved-workout-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.startWorkoutBtn,
+.downloadWorkout {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.workout-session-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.done-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.exercise-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.start-workout-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.start-workout-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.start-workout-item {
+  background: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+}
+
+.start-workout-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.workout-check {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 

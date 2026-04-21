@@ -31,6 +31,7 @@ const translations = {
     infoSave: "All workouts that were saved and downloaded from the website are stored here.",
     mytrenSaved: "My Workouts"
   }
+  
 };
 
 // Переводы строк которые создаются в Js
